@@ -21,19 +21,7 @@
         <!-- Meta-data para la API key de Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC27Q7Q_v5s8c-PT6-JgnDghQJQJwBLyfE" />
-
-        <!-- Meta-data para la API key de tommorrow weather -->
-        <meta-data
-            android:name="com.example.climaactivity.API_KEY"
-            android:value="cLToVHMBfqYYb08TFYD0LuXczp6kjVuh" />
-
-
-        <!-- Meta-data para la API key de meteoblue -->
-        <meta-data
-            android:name="com.example.climaactivity.API_KEY3"
-            android:value="VSL9RCJ3uXbU5cIt" />
-
+            android:value="" />
 
         <activity
             android:name=".MainActivity"
