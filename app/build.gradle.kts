@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.secretsGradlePlugin)
+
 }
 
 android {
@@ -40,6 +42,9 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation (libs.play.services.maps)
     implementation (libs.play.services.location)
+    implementation (libs.material.v180)
+    implementation (libs.play.services.maps.v1810)
+    implementation (libs.play.services.location.v2101)
     implementation(libs.okhttp)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
